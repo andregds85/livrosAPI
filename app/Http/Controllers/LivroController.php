@@ -9,10 +9,11 @@ class LivroController extends Controller
 {
 
 
-  
   public function index()
   {
+ 
     return Livros::all();
+  
   }
 
   public function store(Request $request)
@@ -27,15 +28,20 @@ class LivroController extends Controller
 
   public function update(Request $request, $id)
   {
-        Livros::findOrFail($id);
-        Livros::update($request->all());
+    $livros = Livros::findOrFail($id);
+    $livros->update($request->all());
+ 
   }
   public function destroy($id)
   {
-    Livros::findOrFail($id);
-    Livros::delete();
+    $livros = Livros::findOrFail($id);
+    $livros->delete();
   }
 }
+
+
+
+
      /*
       destroy = testa delete igual ao show 
       update = put   igual ao insert 

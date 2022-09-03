@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'a1ac45acd0d4696c430f7565d88fa8d5dc3f26b5',
+    'reference' => 'd4bd54b3c2841e79ca362f29411af40afbdb0454',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -469,7 +469,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'a1ac45acd0d4696c430f7565d88fa8d5dc3f26b5',
+      'reference' => 'd4bd54b3c2841e79ca362f29411af40afbdb0454',
     ),
     'laravel/serializable-closure' => 
     array (
@@ -823,8 +823,8 @@ private static $installed = array (
     array (
       'provided' => 
       array (
-        0 => '1.0|2.0',
-        1 => '1.0.0 || 2.0.0 || 3.0.0',
+        0 => '1.0.0 || 2.0.0 || 3.0.0',
+        1 => '1.0|2.0',
       ),
     ),
     'psr/simple-cache' => 
